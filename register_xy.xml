@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg5"
+    android:orientation="vertical">
+
+    <AbsoluteLayout
+        android:layout_width="match_parent"
+        android:layout_height="255dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_x="2dp"
+            android:layout_y="157dp"
+            android:gravity="center"
+            android:text="注册界面"
+            android:textColor="@android:color/background_light"
+            android:textSize="40dp"></TextView>
+
+    </AbsoluteLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="       账号："
+            android:textColor="@android:color/background_dark"
+            android:textSize="25dp"></TextView>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="请输入你的账号"
+            android:inputType="number"></EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="       密码："
+            android:textColor="@android:color/background_dark"
+            android:textSize="25dp"></TextView>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="请输入你的密码"
+            android:inputType="number"></EditText>
+    </LinearLayout>
+
+    <!--<RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="369dp"
+        android:orientation="horizontal">
+        <RadioButton
+            android:layout_width="match_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="登录"
+            ></RadioButton>
+
+        <RadioButton
+            android:layout_width="match_content"
+            android:layout_height="wrap_content"
+            android:text="注册"></RadioButton>
+    </RadioGroup>
+-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="31dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="            □注册"
+            android:textColor="@android:color/background_dark"
+            android:textSize="15dp"></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  □忘记密码？"
+            android:textColor="@android:color/background_dark"
+            android:textSize="15dp"></TextView>
+
+
+    </LinearLayout>
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></Spinner>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="登   录"
+        android:textSize="30dp"></Button>
+
+</LinearLayout>
